@@ -1,0 +1,11 @@
+names:
+- gaussian
+- salt_pepper
+- poisson
+- speckle
+- motion_blur
+nc: 5
+path: C:\Users\DELL\Desktop\Projet_FaceDenoising\yolo_dataset
+test: test/images
+train: train/images
+val: val/images
