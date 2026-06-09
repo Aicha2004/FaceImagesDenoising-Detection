@@ -153,10 +153,10 @@ class FastNoiseDetector:
         """Process all images with maximum speed"""
         
         if input_dir is None:
-            input_dir = self.base_path / 'outputs' / 'denoised_pipeline_existing_metrics'
+            input_dir = self.base_path / 'outputs' / 'cnn_results'
         
         if output_dir is None:
-            output_dir = self.base_path / 'outputs' / 'fast_detected_noise'
+            output_dir = self.base_path / 'outputs' / 'fast_detected_noiseCNN'
         
         output_dir.mkdir(parents=True, exist_ok=True)
         
